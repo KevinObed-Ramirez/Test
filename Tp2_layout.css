@@ -19,31 +19,43 @@
 
 /* Import Basic Design Styles Used on All Screens */
 
-@import url("gp_designs.css");
+
 
 /* Flex Layout Styles */
-body header{
-   
+@font-face{
+   font-family: Junction;
+   src: url("path/Junction-regular.otf") format("opentype");
+}
+html {
+   background-color: black;
+   font-family: Junction; 
+}
+body {
+	background-color: white;
+	box-shadow: 15px 0px 30px rgb(51, 51, 51),
+				-15px 0px 30px rgb(51, 51, 51);	
+	margin: 0px auto;				   
+   max-width: 1024px;
+   font-family: Junction;
+}
+body > header{
+   margin-left: 2em;
+}
+ body > h2{
+   margin-left: 1em;
 }
 section#sheet{
    flex: 3 1 301px;
 }
-
-html {
-	background-color: rgb(211, 255, 211);
-	font-size: 12px;
-	font-family: Tahoma, Geneva, sans-serif;
-}
-
-body {
-	background-color: rgb(242, 221, 174);
-	box-shadow: 15px 0px 30px rgb(51, 51, 51),
-				-15px 0px 30px rgb(51, 51, 51);	
-	margin: 0px auto;				   
-	max-width: 1024px;
-}
 section#sheet img{
  width: 100%;
+}
+section#sheet figure figcaption{
+   margin-right: auto;
+   margin-left: auto;
+   font-size: 1.5em;
+   text-align: center;
+   font-family: Junction;
 }
 
 
