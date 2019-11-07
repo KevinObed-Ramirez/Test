@@ -7,17 +7,7 @@
    
    Author:   Kevin Ramirez
    Date:     10-31-19
-   
-   Filename: gp_layout.css
-
-   This file contains the layout styles and media
-   queries used with sample pages from the Golden
-   Pulps website.
-
 */
-
-
-/* Import Basic Design Styles Used on All Screens */
 
 
 
@@ -27,7 +17,7 @@
    src: url("path/Junction-regular.otf") format("opentype");
 }
 html {
-   background-color: black;
+   background-color: lightblue;
    font-family: Junction; 
 }
 body {
@@ -44,6 +34,36 @@ body > header{
  body > h2{
    margin-left: 1em;
 }
+body header#Photo{
+   clear: both;
+}
+/* Horizontal Navigation Styles */
+nav.Horizontal li{
+   display: block;
+   float: left;
+   display: block;
+   text-align: center;
+   width: 100%;
+}
+nav.Horizontal ul li{
+   display: block;
+   list-style-type: none;
+   text-decoration: none;
+   padding: 8px 16px;
+    width: auto;
+    border-right: solid 4px;
+    border-top: solid 4px;
+    border-left: solid 4px;
+    border-bottom: solid 4px;
+    background-color: lightblue;
+
+}
+nav.Horizontal{
+   margin: 0px auto;
+   margin-left: 35%;
+   margin-right: 20%;
+}
+/*Section Styles*/
 section#sheet{
    flex: 3 1 301px;
 }

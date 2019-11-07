@@ -1,0 +1,48 @@
+@charset "UTF-8"
+
+/*Html and Body Styles*/
+@font-face{
+    font-family: Junction;
+    src: url("path/Junction-regular.otf") format("opentype");
+ }
+html {
+    background-color: lightblue;
+    font-family: Junction; 
+ }
+ body {
+     background-color: white;
+     box-shadow: 15px 0px 30px rgb(51, 51, 51),
+                 -15px 0px 30px rgb(51, 51, 51);	
+     margin: 0px auto;				   
+    max-width: 1024px;
+    font-family: Junction;
+ }
+ /* Horizontal Navigation Styles */
+nav.Horizontal li{
+    display: block;
+    float: left;
+    display: block;
+    text-align: center;
+ }
+ nav.Horizontal ul li{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 8px 16px;
+     width: auto;
+     border-right: solid 4px;
+     border-top: solid 4px;
+     border-left: solid 4px;
+     border-bottom: solid 4px;
+     background-color: lightblue;
+ 
+ }
+ nav.Horizontal{
+    margin: 0px auto;
+    margin-left: 35%;
+    margin-right: 20%;
+ }
+ 
+ section#NAme h1{
+    clear:  left;
+ }
