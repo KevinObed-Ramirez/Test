@@ -18,6 +18,10 @@ html {
     font-family: Junction;
  }
  /* Horizontal Navigation Styles */
+nav a{
+   text-decoration: none;
+}
+
 nav.Horizontal li{
     display: block;
     float: left;

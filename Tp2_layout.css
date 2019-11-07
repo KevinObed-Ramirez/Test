@@ -38,6 +38,10 @@ body header#Photo{
    clear: both;
 }
 /* Horizontal Navigation Styles */
+nav a{
+   text-decoration: none;
+}
+
 nav.Horizontal li{
    display: block;
    float: left;
@@ -77,7 +81,10 @@ section#sheet figure figcaption{
    text-align: center;
    font-family: Junction;
 }
-
+figure img{
+   float: right;
+   width: 10%;
+  }
 
 
 /* ============================================
