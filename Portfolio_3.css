@@ -1,6 +1,5 @@
 @charset "UTF-8"
 
-/*Html and Body Styles*/
 @font-face{
     font-family: Junction;
     src: url("path/Junction-regular.otf") format("opentype");
@@ -17,17 +16,9 @@ html {
     max-width: 1024px;
     font-family: Junction;
  }
- body section {
-    clear: both;
-    margin-left: 1em;
+ body header#Top{
+     clear: both;
  }
- body section p{
-   margin-left: 2em;
-}
- figure img{
-   float: right;
-   width: 10%;
-  }
  /* Horizontal Navigation Styles */
 nav a{
    text-decoration: none;
@@ -57,7 +48,23 @@ nav.Horizontal li{
     margin-left: 35%;
     margin-right: 20%;
  }
- 
- section#NAme h1{
-    clear:  left;
- }
+nav a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav.Horizontal ul li a:hover{
+    color: white;
+}
+nav.Horizontal ul li a:active{
+    color: aqua;
+}
+/*Other Stuff*/
+footer ul li a{
+list-style-type: none;
+text-decoration: none; 
+}
+figure img{
+ float: right;
+ width: 10%;
+}
