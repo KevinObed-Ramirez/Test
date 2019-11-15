@@ -18,6 +18,11 @@ html {
  }
  body header#Top{
      clear: both;
+     margin-left: 1em ;
+     
+ }
+ body header > p{
+     font-size: 20px;
  }
  /* Horizontal Navigation Styles */
 nav a{
@@ -60,11 +65,17 @@ nav.Horizontal ul li a:active{
     color: aqua;
 }
 /*Other Stuff*/
-footer ul li a{
-list-style-type: none;
-text-decoration: none; 
+footer ul li{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
 }
-figure img{
+figure#logo img{
  float: right;
  width: 10%;
+ position: relative;
+}
+figure img{
+    width: 50%;
+    margin-left: 250px;
 }

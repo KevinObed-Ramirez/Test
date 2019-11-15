@@ -23,6 +23,7 @@ html {
  }
  body section p{
    margin-left: 2em;
+   font-size: 20px;
 }
  figure img{
    float: right;
@@ -60,4 +61,21 @@ nav.Horizontal li{
  
  section#NAme h1{
     clear:  left;
+ }
+ footer ul li{
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+ }
+ section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ section{
+    text-align: center;
+    margin-left: 0;
+ }
+ section h1{
+    font-size: 25px;
  }

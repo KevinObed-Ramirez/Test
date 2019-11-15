@@ -31,8 +31,9 @@ body {
 body > header{
    margin-left: 2em;
 }
- body > h2{
-   margin-left: 1em;
+ body > p{
+   margin-left: 2em;
+   font-size: 25px;
 }
 body header#Photo{
    clear: both;
@@ -73,6 +74,7 @@ section#sheet{
 }
 section#sheet img{
  width: 100%;
+ 
 }
 section#sheet figure figcaption{
    margin-right: auto;
@@ -85,7 +87,11 @@ figure img{
    float: right;
    width: 10%;
   }
-
+  footer ul li{
+   text-align: center;
+   list-style-type: none;
+   text-decoration: none;
+  }
 
 
 
