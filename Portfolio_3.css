@@ -73,7 +73,7 @@ footer ul li{
 figure#logo img{
  float: right;
  width: 10%;
- position: relative;
+transform: translateY(-40px)
 }
 figure img{
     width: 50%;
