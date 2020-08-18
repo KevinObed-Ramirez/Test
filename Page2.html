@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="Tp2_layout.css" rel="stylesheet">
+    <script src="page2.js" defer></script>
     <link rel="icon" type="image" href="logo.png">
     
     <title>Photography</title>
@@ -24,26 +25,45 @@
             I have taken during my free time or for personal projects
         </p>
     <section id="sheet">
-        <figure>
-            <img src="7-KRamirez-Abstract-1-CUR.jpg" alt="Didn't work try again">
-            <figcaption #AbstractPhoto> An abstract image focusing on the design on the card but raising questions to the viewer</figcaption>
-        </figure>
-        <br />
-        <hr/>
-    </section>
-    <section id="sheet">
-        <figure>
-            <img src="CMA_8510.JPG" alt="Didn't work try again"> 
-            <figcaption> An image of a mannequin hanging from a fence</figcaption>
-        </figure>
-        <br />
-        <hr />
-    </section>
-    <section id="sheet">
-        <figure>
-            <img src="CMA_9448.JPG" alt="Didn't Work try again noob">
-            <figcaption> A photo where the viewer sees through the holes in the fence </figcaption>
-        </figure>
+       <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="7-KRamirez-Abstract-1-CUR.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="CMA_9448.JPG" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="CMA_9464.JPG" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="CMA_8510.JPG" style="width:100%">
+        <div class="text"></div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
     </section>
     <hr />
     <footer>
