@@ -6,7 +6,7 @@
    src: url("path/Junction-regular.otf") format("opentype");
 }
 html {
-   background-color: lightblue;
+   background: linear-gradient(#c02c51, #4953ca);
    font-family: Junction; 
 }
 body {
@@ -62,6 +62,16 @@ nav.Horizontal{
    margin-left: 35%;
    margin-right: 20%;
 }
+nav.Horizontal ul li a:hover{
+   color: white;
+}
+nav.Horizontal ul li a:active{
+   color: aqua;
+}
+nav.Horizontal ul li a:link{
+   color: blueviolet;
+}
+
 
 /*Section Styles*/
 section img{

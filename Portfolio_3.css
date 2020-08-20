@@ -7,7 +7,7 @@
 
 /* HTML and Body styles */
 html {
-    background-color: lightblue;
+  background: linear-gradient(#c02c51, #4953ca);
     font-family: Junction; 
 }
 body {
@@ -64,6 +64,9 @@ nav.Horizontal ul li a:hover{
 }
 nav.Horizontal ul li a:active{
     color: aqua;
+}
+nav.Horizontal ul li a:link{
+    color: blueviolet;
 }
 
 

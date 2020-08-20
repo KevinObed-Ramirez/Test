@@ -14,7 +14,7 @@ Page 2 CSS
    src: url("path/Junction-regular.otf") format("opentype");
 }
 html {
-   background-color: lightblue;
+   background: linear-gradient(#c02c51, #4953ca);
    font-family: Junction; 
 }
 body {
@@ -54,18 +54,27 @@ nav.Horizontal ul li{
    list-style-type: none;
    text-decoration: none;
    padding: 8px 16px;
-    width: auto;
-    border-right: solid 4px;
-    border-top: solid 4px;
-    border-left: solid 4px;
-    border-bottom: solid 4px;
-    background-color: lightblue;
+   width: auto;
+   border-right: solid 4px;
+   border-top: solid 4px;
+   border-left: solid 4px;
+   border-bottom: solid 4px;
+   background-color: lightblue;
 
 }
 nav.Horizontal{
    margin: 0px auto;
    margin-left: 35%;
    margin-right: 20%;
+}
+nav.Horizontal ul li a:hover{
+   color: white;
+}
+nav.Horizontal ul li a:active{
+   color: aqua;
+}
+nav.Horizontal ul li a:link{
+   color: blueviolet;
 }
 
 
@@ -74,8 +83,7 @@ section#sheet{
    flex: 3 1 301px;
 }
 section#sheet img{
- width: 100%;
- 
+   width: 100%; 
 }
 section#sheet figure figcaption{
    margin-right: auto;
@@ -141,7 +149,7 @@ figure img{
    user-select: none;
  }
  
- /* Position the "next button" to the right */
+ /* Positioning */
  .next {
    right: 0;
    border-radius: 3px 0 0 3px;
