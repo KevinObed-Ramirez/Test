@@ -1,81 +1,99 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-/*Html and Body Styles*/
+/*HTML Body Styles*/
 @font-face{
-    font-family: Junction;
-    src: url("path/Junction-regular.otf") format("opentype");
- }
+   font-family: Junction;
+   src: url("path/Junction-regular.otf") format("opentype");
+}
 html {
-    background-color: lightblue;
-    font-family: Junction; 
- }
- body {
-     background-color: white;
-     box-shadow: 15px 0px 30px rgb(51, 51, 51),
-                 -15px 0px 30px rgb(51, 51, 51);	
-     margin: 0px auto;				   
-    max-width: 1024px;
-    font-family: Junction;
- }
- body section {
-    clear: both;
-    margin-left: 1em;
- }
- body section p{
+   background-color: lightblue;
+   font-family: Junction; 
+}
+body {
+   background-color: white;
+   box-shadow: 15px 0px 30px rgb(51, 51, 51), -15px 0px 30px rgb(51, 51, 51);	
+   margin: 0px auto;				   
+   max-width: 1024px;
+   font-family: Junction;
+}
+body section#NAme header > h1{
+   float: left;
+   font-size: 40px;
+}
+
+body section {
+   clear: both;
+   margin-left: 1em;
+}
+body section p{
    margin-left: 2em;
    font-size: 20px;
 }
- figure img{
+figure img{
    float: right;
    width: 10%;
-  }
+}
+
+
  /* Horizontal Navigation Styles */
 nav a{
    text-decoration: none;
 }
-
 nav.Horizontal li{
-    display: block;
-    float: left;
-    display: block;
-    text-align: center;
- }
- nav.Horizontal ul li{
-    display: block;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 8px 16px;
-     width: auto;
-     border-right: solid 4px;
-     border-top: solid 4px;
-     border-left: solid 4px;
-     border-bottom: solid 4px;
-     background-color: lightblue;
- 
- }
- nav.Horizontal{
-    margin: 0px auto;
-    margin-left: 35%;
-    margin-right: 20%;
- }
- 
- section#NAme h1{
-    clear:  left;
- }
- footer ul li{
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
- }
- section img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
- section{
-    text-align: center;
-    margin-left: 0;
- }
- section h1{
-    font-size: 25px;
- }
+   display: block;
+   float: left;
+   display: block;
+   text-align: center;
+}
+nav.Horizontal ul li{
+   display: block;
+   list-style-type: none;
+   text-decoration: none;
+   padding: 8px 16px;
+   width: auto;
+   border-right: solid 4px;
+   border-top: solid 4px;
+   border-left: solid 4px;
+   border-bottom: solid 4px;
+   background-color: lightblue; 
+}
+nav.Horizontal{
+   margin: 0px auto;
+   margin-left: 35%;
+   margin-right: 20%;
+}
+
+/*Section Styles*/
+section img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+section{
+   text-align: center;
+   margin-left: 0;
+}
+section h1{
+   font-size: 25px;
+}
+
+
+ /* footer styles  */
+footer ul li{
+   text-align: center;
+   list-style-type: none;
+   text-decoration: none;
+   font-size: 20px;
+}
+footer ul li a:link{
+   text-decoration: none;
+   list-style: none;
+   color: black;
+
+}
+footer ul li a:hover{
+   text-decoration: none;
+   list-style: none;
+   color: blue;
+
+}

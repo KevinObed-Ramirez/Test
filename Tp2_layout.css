@@ -1,17 +1,14 @@
 @charset "utf-8";
 
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 5
-   Case Problem 1
-   
+Page 2 CSS
    Author:   Kevin Ramirez
    Date:     10-31-19
 */
 
 
 
-/* Flex Layout Styles */
+/* HTML Body styles */
 @font-face{
    font-family: Junction;
    src: url("path/Junction-regular.otf") format("opentype");
@@ -38,6 +35,8 @@ body > header{
 body header#Photo{
    clear: both;
 }
+
+
 /* Horizontal Navigation Styles */
 nav a{
    text-decoration: none;
@@ -68,6 +67,8 @@ nav.Horizontal{
    margin-left: 35%;
    margin-right: 20%;
 }
+
+
 /*Section Styles*/
 section#sheet{
    flex: 3 1 301px;
@@ -83,17 +84,36 @@ section#sheet figure figcaption{
    text-align: center;
    font-family: Junction;
 }
+
+
+/* Figure styles */
 figure img{
    float: right;
    width: 10%;
   }
+
+
+  /* footer styles/ */
   footer ul li{
    text-align: center;
    list-style-type: none;
    text-decoration: none;
+   font-size: 20px;
   }
+  footer ul li a:link{
+   text-decoration: none;
+   list-style: none;
+   color: black;
 
-/* Slideshow CSS*/
+ }
+ footer ul li a:hover{
+   text-decoration: none;
+   list-style: none;
+   color: blue;
+
+ }
+
+/* Slideshow Styles*/
   .slideshow-container {
    max-width: 1000px;
    position: relative;
@@ -127,7 +147,7 @@ figure img{
    border-radius: 3px 0 0 3px;
  }
  
- /* On hover, add a black background color with a little bit see-through */
+ /* On hover styles */
  .prev:hover, .next:hover {
    background-color: rgba(0,0,0,0.8);
  }
@@ -143,7 +163,7 @@ figure img{
    text-align: center;
  }
  
- /* Number text (1/3 etc) */
+ /* Number text (1/5 etc) */
  .numbertext {
    color: #f2f2f2;
    font-size: 12px;
@@ -152,7 +172,7 @@ figure img{
    top: 0;
  }
  
- /* The dots/bullets/indicators */
+ /* The dots styles */
  .dot {
    cursor: pointer;
    height: 15px;
@@ -185,6 +205,8 @@ figure img{
    from {opacity: .4}
    to {opacity: 1}
  }
+
+
 /* ============================================
 	Mobile Devices: 0 - 480 pixels
    ============================================
@@ -208,7 +230,6 @@ figure img{
    
 
 }
-
 
 
 /* ===================================================

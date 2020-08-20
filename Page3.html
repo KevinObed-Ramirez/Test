@@ -7,7 +7,10 @@
     <title> Photoshop</title>
     <link rel="icon" type="image" href="logo.png">
     <link href="Portfolio_3.css" rel="stylesheet">
+    <script src="page3.js" defer></script>
 </head>
+
+<!--Top of the body-->
 <body>
     <nav class="Horizontal">
         <ul>
@@ -17,55 +20,69 @@
         </ul>
     </nav>
         <figure id="logo"> <img src="logo.png" alt="OOps"> </figure>
+
+        <!--Header structure-->
     <header id="Top"><h1>Photoshop</h1>
         <p>Here I do different types of edits using Photoshop. I have a lot of experience and
             I've always given the best quality, so you should expect the best for you!
         </p>
     </header>
-        <section>
-            <figure>
-                <img src="project boredom finished.jpg" alt="Oops"> 
-            </figure>
-        </section>
-        <br />
-        <hr />
-        <section>
-                <figure>
-                    <img src="Peter drives Car.jpg" alt="Oops"> 
-                </figure>
-            </section>
-            <br />
-            <hr />
-            <section>
-                    <figure>
-                        <img src="Peter_Chungus.jpg" alt="Oops"> 
-                    </figure>
-                </section>
-                <br />
-                <hr />
-            <section>
-                    <figure>
-                        <img src="7-KRamirez-Self-Portrait-CUR-DUP-DUP.jpg" alt="Oops"> 
-                    </figure>
-                </section>
-                <br />
-                <hr />
-            <section>
-                    <figure>
-                        <img src="7-KRamirez-PSAPoster-CUR-DUP-DUP-DUP-TEX.jpg" alt="Oops"> 
-                    </figure>
-                </section>
-                <br />
-                <hr />
 
 
+    <!--Slideshow-->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="7-KRamirez-PSAPoster-CUR-DUP-DUP-DUP-TEX.jpg" style="width:100%">
+          <div class="text">PSA Poster</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="7-KRamirez-Self-Portrait-CUR-DUP-DUP.jpg" style="width:100%">
+          <div class="text">Self-Portrait</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="Day at the pool.jpg" style="width:100%">
+          <div class="text">Day at the pool</div>
+        </div>
 
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="interview with interglactic beings.jpg" style="width:100%">
+            <div class="text">Beings</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5/ 5</div>
+            <img src="project boredom finished.jpg" style="width:100%">
+            <div class="text">The NOT avengers</div>
+          </div>
+        
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+
+<!--Footer -->
     <footer>
-        <center><h3>Are you impressed?</h3> <h1>Contact me</h1><h3> at:</h3></center>
-            <ul>
-                <li>Phone Number: <a href="tel:623-478-7685">623-478-7685</li></a>
-                <li> Email:<a href=mailto:wnightgodzilla115@gmail.com> wnightgodzilla115@gmail.com</a></li>
-            </ul>
+        <center><h2>Are you interested in my services?</h2>
+          <h1>Contact me for any inquires at:</h1></center>
+          <ul>
+              <li>Phone Number: <a href="tel:623-478-7685">623-478-7685</li></a>
+              <li> Email:<a href=mailto:wnightgodzilla115@gmail.com> wnightgodzilla115@gmail.com</a></li>
+          </ul>
     </footer>
 </body>
 </html>
