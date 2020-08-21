@@ -55,7 +55,7 @@ nav.Horizontal ul li{
    border-top: solid 4px;
    border-left: solid 4px;
    border-bottom: solid 4px;
-   background-color: lightblue; 
+   background-color: #c02c51; 
 }
 nav.Horizontal{
    margin: 0px auto;
@@ -69,7 +69,10 @@ nav.Horizontal ul li a:active{
    color: aqua;
 }
 nav.Horizontal ul li a:link{
-   color: blueviolet;
+   color: white;
+}
+nav.Horizontal ul li a:visited{
+   color: azure;
 }
 
 
